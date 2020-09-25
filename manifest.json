@@ -1,14 +1,14 @@
 {
-  "name": "Segment Event Tracker",
+  "name": "WM Segment Event Tracker",
   "manifest_version": 2,
-  "version": "1.5",
-  "description": "See when Segment events are being tracked.",
+  "version": "0.1",
+  "description": "See when WM Segment events are being tracked.",
   "permissions": [
-  	"<all_urls>",
+    "<all_urls>",
     "http://*/*",
     "https://*/*",
-  	"webRequest",
-  	"webRequestBlocking"
+    "webRequest",
+    "webRequestBlocking"
   ],
   "browser_action": {
     "default_icon": "logo.png",
@@ -20,9 +20,7 @@
     "128": "logo.png"
   },
   "background": {
-	"scripts": [
-		"background.js"
-	],
-	"persistent": true
+    "scripts": ["background.js"],
+    "persistent": true
   }
 }
