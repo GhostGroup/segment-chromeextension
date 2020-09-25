@@ -4,9 +4,8 @@
   "version": "0.1",
   "description": "See when WM Segment events are being tracked.",
   "permissions": [
-    "<all_urls>",
-    "http://*/*",
-    "https://*/*",
+    "http://*.weedmaps.com/*",
+    "https://*.weedmaps.com/*",
     "webRequest",
     "webRequestBlocking"
   ],
