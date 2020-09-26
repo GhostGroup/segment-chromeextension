@@ -6,6 +6,7 @@
   "permissions": [
     "*://*.weedmaps.com/*",
     "*://*.internal-weedmaps.com/*",
+    "*://localhost/*",
     "webRequest",
     "webRequestBlocking"
   ],
