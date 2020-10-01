@@ -1,7 +1,7 @@
 {
   "name": "WM Segment Event Tracker",
   "manifest_version": 2,
-  "version": "0.1",
+  "version": "0.2",
   "description": "See when WM Segment events are being tracked.",
   "permissions": [
     "*://*.weedmaps.com/*",
